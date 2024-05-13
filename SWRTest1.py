@@ -10,7 +10,7 @@ from llama_index.core import Settings
 
 documents = SimpleDirectoryReader("data").load_data()
 
-os.environ["OPENAI_API_KEY"] = "sk-proj-WcFQdhwLGC32DOgoP7NLT3BlbkFJovbzcYSzWdaH9uWeKA8c"
+os.environ["OPENAI_API_KEY"] = "sk-pBlbkFJovbzcYSzWdaH9uWeKA8c"
 
 # create the sentence window node parser w/ default settings
 node_parser = SentenceWindowNodeParser.from_defaults(
